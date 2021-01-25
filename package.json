@@ -1,0 +1,25 @@
+{
+	"name": "cisco-webex",
+	"version": "1.1.4",
+	"api_version": "1.0.0",
+	"keywords": [
+		"Video",
+		"Media"
+	],
+	"manufacturer": "Cisco",
+	"product": "Webex",
+	"shortname": "webex",
+	"description": "Module to control Cisco Webex devices",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Håkon Nessjøen <haakon@bitfocus.io>",
+	"contributors": [
+		"William Viker <william@bitfocus.io>"
+	],
+	"license": "MIT",
+	"dependencies": {
+		"jsxapi": "^5.0.3"
+	}
+}
