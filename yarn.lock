@@ -1151,9 +1151,10 @@ jsonparse@^1.3.1:
   resolved "https://registry.yarnpkg.com/jsonparse/-/jsonparse-1.3.1.tgz#3f4dae4a91fac315f71062f8521cc239f1366280"
   integrity sha1-P02uSpH6wxX3EGL4UhzCOfE2YoA=
 
-"jsxapi@https://github.com/cisco-ce/jsxapi.git#v5.1.0-1":
+jsxapi@next:
   version "5.1.0-1"
-  resolved "https://github.com/cisco-ce/jsxapi.git#b04a029a77c3666d24630bf384bed8c742ebd17a"
+  resolved "https://registry.yarnpkg.com/jsxapi/-/jsxapi-5.1.0-1.tgz#0e65d1e56e44e643cd90adb288e73a57ae4eee86"
+  integrity sha512-yYn4M5dmuOW2Mo1tnq48Xjk1SsmqZZkqGbWm+Cc8Nu7/txKjXFdhJnTbq8jmJ286sg1z2syUhZTAymnDwBfDHA==
   dependencies:
     commander "^4.0.1"
     core-js "^3.4.8"
