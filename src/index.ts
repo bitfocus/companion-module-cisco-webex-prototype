@@ -26,9 +26,9 @@ class ControllerInstance extends WebexInstanceSkel<DeviceConfig> {
 	}
 
 	// Override base types to make types stricter
-	public checkFeedbacks(feedbackId?: FeedbackId, ignoreInitDone?: boolean): void {
-		if (ignoreInitDone || this.connected) {
-			super.checkFeedbacks(feedbackId)
+	public checkFeedbacks(...feedbackTypes: FeedbackId[]): void {
+		if (this.connected) {
+			super.checkFeedbacks(...feedbackTypes)
 		}
 	}
 

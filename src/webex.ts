@@ -51,7 +51,7 @@ export abstract class WebexInstanceSkel<T> extends InstanceSkel<T> {
 		Mute: WebexOnOffBoolean.Unknown
 	}
 
-	public checkFeedbacks(feedbackId?: FeedbackId, _ignoreInitDone?: boolean): void {
-		super.checkFeedbacks(feedbackId)
+	public checkFeedbacks(...feedbackTypes: FeedbackId[]): void {
+		super.checkFeedbacks(...feedbackTypes)
 	}
 }
